@@ -97,5 +97,4 @@ export default {
 .active.nav-mobile {
   transform: translateY(-50%) translateX(0);
 }
-
 </style>
