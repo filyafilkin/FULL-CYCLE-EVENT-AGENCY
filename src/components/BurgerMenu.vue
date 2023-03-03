@@ -6,19 +6,25 @@
 
   <ul class="nav-mobile" :class="{active:menuActive}">
     <li class="nav-mobile__item">
-      <router-link class="nav-mobile__text text" :to="'/where'">
+      <router-link class="nav-mobile__text text" :to="'/'" @click="menuOpen">
+        Home
+      </router-link>
+    </li>
+
+    <li class="nav-mobile__item">
+      <router-link class="nav-mobile__text text" :to="'/where'" @click="menuOpen">
         Where?
       </router-link>
     </li>
 
     <li class="nav-mobile__item">
-      <router-link class="nav-mobile__text text" :to="'/who'">
+      <router-link class="nav-mobile__text text" :to="'/who'" @click="menuOpen">
         Who?
       </router-link>
     </li>
 
     <li class="nav-mobile__item">
-      <router-link class="nav-mobile__text text" :to="'/what'">
+      <router-link class="nav-mobile__text text" :to="'/what'" @click="menuOpen">
         What?
       </router-link>
     </li>
@@ -56,13 +62,15 @@ export default {
   @media (max-width: 767px) {
     display: flex;
   }
-
+  @media (max-height: 480px) {
+    display: flex;
+  }
 
   &__item {
     width: 22px;
     height: 1px;
     background-color: #000000;
-    transition: all .1s;
+    transition: all .5s;
   }
 }
 
@@ -92,6 +100,13 @@ export default {
   z-index: 10;
   @media (max-width: 767px) {
     display: flex;
+  }
+  @media (max-height: 480px) {
+    display: flex;
+  }
+
+  &__item {
+    position: relative;
   }
 }
 

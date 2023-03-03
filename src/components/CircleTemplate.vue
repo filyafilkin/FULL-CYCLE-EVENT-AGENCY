@@ -2,12 +2,7 @@
   <div class="circle">
     <svg viewBox="0 0 100 100">
       <defs>
-        <path id="circle"
-              d="
-                    M 50, 50
-                    m -37, 0
-                    a 37,37 0 1,1 74,0
-                    a 37,37 0 1,1 -74,0"/>
+        <path id="circle" d=" M 50, 50 m -37, 0 a 37,37 0 1,1 74,0a 37,37 0 1,1 -74,0"/>
       </defs>
 
       <text class="circle__text">
@@ -33,9 +28,15 @@ export default {
   cursor: pointer;
   animation: spin 10s infinite linear;
   animation-play-state: paused;
+  @media (max-width: 1600px) {
+    bottom: 20%;
+  }
+  @media (max-width: 1440px) {
+    bottom: 18%;
+    right: 32%;
+  }
   @media (max-width: 1280px) {
-    bottom: 26%;
-    right: 28%;
+    bottom: 16%;
   }
   @media (max-width: 1024px) {
     bottom: 33%;
@@ -62,8 +63,15 @@ export default {
     bottom: 18%;
     right: 5%;
   }
+  @media (max-height: 450px) {
+    bottom: 2%;
+    right: 15%;
+  }
 
   &:hover {
+    animation-play-state: running;
+  }
+  &:active {
     animation-play-state: running;
   }
 

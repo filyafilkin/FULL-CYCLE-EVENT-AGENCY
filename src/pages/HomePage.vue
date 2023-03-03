@@ -54,11 +54,13 @@ export default {
   overflow: hidden;
 
   &__inner {
-    height: 100vh;
+    height: 100%;
+    max-height: 100vh;
 
     &:before {
       content: '';
       position: absolute;
+      z-index: 1;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -70,7 +72,6 @@ export default {
       border: 1px solid #FFCB46;
       border-radius: 50%;
       filter: blur(38px);
-      z-index: -1;
       @media (max-width: 1024px) {
         max-width: 482px;
         max-height: 482px;

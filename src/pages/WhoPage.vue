@@ -48,8 +48,10 @@ export default {
 <style lang="scss">
 .who {
   overflow: hidden;
+
   &__inner {
     height: 100vh;
+    height: -webkit-fill-available;
 
     &:before {
       content: '';
@@ -65,7 +67,7 @@ export default {
       border: 1px solid #73ff7c;
       border-radius: 50%;
       filter: blur(38px);
-      z-index: -1;
+      z-index: 1;
       @media (max-width: 1024px) {
         max-width: 482px;
         max-height: 482px;

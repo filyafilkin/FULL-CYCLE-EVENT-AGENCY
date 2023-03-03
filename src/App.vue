@@ -100,8 +100,8 @@ body {
   max-width: 1023px;
   width: 100%;
   z-index: 2;
-  @media (max-width: 1280px) {
-    max-width: 80%;
+  @media (max-width: 1440px) {
+    max-width: 70%;
     font-size: 58px;
   }
   @media (max-width: 767px) {

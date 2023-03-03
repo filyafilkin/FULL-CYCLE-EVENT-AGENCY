@@ -41,28 +41,33 @@ export default {
   left: 50%;
   z-index: -2;
   transform: translate(-50%, -50%) rotate(-26deg);
-  @media (max-width: 1024px) {
+  @media (max-width: 1600px) {
     width: 200%;
-    transform: translate(-50%, -50%) rotate(-33deg);
+    transform: translate(-50%, -50%) rotate(-29deg);
+  }
+  @media (max-width: 1440px) {
+    transform: translate(-50%, -50%) rotate(-32deg);
+  }
+  @media (max-width: 1366px) {
+    transform: translate(-50%, -50%) rotate(-29deg);
+  }
+  @media (max-width: 1280px) {
+    transform: translate(-50%, -50%) rotate(-32deg);
   }
   @media (max-width: 1024px) {
-    width: 200%;
-    transform: translate(-50%, -50%) rotate(-55deg);
+    transform: translate(-50%, -50%) rotate(-54deg);
   }
   @media (max-width: 768px) {
     width: 300%;
     transform: translate(-50%, -50%) rotate(-54deg);
   }
   @media (max-width: 600px) {
-    width: 300%;
     transform: translate(-50%, -50%) rotate(-60deg);
   }
   @media (max-width: 414px) {
-    width: 300%;
     transform: translate(-50%, -50%) rotate(-66deg);
   }
   @media (max-width: 375px) {
-    width: 300%;
     transform: translate(-50%, -50%) rotate(-60deg);
   }
 
