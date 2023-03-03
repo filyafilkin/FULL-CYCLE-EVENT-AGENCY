@@ -25,6 +25,7 @@ export default {
   position: absolute;
   bottom: 22%;
   right: 36%;
+  z-index: 2;
   cursor: pointer;
   animation: spin 10s infinite linear;
   animation-play-state: paused;

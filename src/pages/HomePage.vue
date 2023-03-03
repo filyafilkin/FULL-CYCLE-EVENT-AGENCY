@@ -55,7 +55,7 @@ export default {
 
   &__inner {
     height: 100vh;
-    height: -webkit-fill-available;
+    height: var(--app-height);
 
     &:before {
       content: '';
