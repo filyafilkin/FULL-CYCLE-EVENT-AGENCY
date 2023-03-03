@@ -54,8 +54,8 @@ export default {
   overflow: hidden;
 
   &__inner {
-    height: 100%;
-    max-height: 100vh;
+    height: 100vh;
+    height: -webkit-fill-available;
 
     &:before {
       content: '';
