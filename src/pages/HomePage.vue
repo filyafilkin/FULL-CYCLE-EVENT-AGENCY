@@ -79,6 +79,10 @@ export default {
         max-width: 294px;
         max-height: 294px;
       }
+      @media (max-width: 374px) {
+        max-width: 254px;
+        max-height: 254px;
+      }
     }
   }
 

@@ -57,6 +57,7 @@ export default {
     display: flex;
   }
 
+
   &__item {
     width: 22px;
     height: 1px;
@@ -89,7 +90,7 @@ export default {
   right: 5px;
   transition: 1s;
   z-index: 10;
-  @media (max-width: 787px) {
+  @media (max-width: 767px) {
     display: flex;
   }
 }
@@ -97,4 +98,5 @@ export default {
 .active.nav-mobile {
   transform: translateY(-50%) translateX(0);
 }
+
 </style>

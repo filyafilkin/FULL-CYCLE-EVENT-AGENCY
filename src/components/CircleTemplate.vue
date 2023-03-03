@@ -38,15 +38,29 @@ export default {
     right: 28%;
   }
   @media (max-width: 1024px) {
-    bottom: 25%;
-    right: 21%;
+    bottom: 33%;
+    right: 27%;
   }
-  @media (max-width: 1024px) {
-    bottom: 20%;
-    right: 16%;
+  @media (max-width: 991px) {
+    bottom: 24%;
+    right: 26%;
+  }
+  @media (max-width: 820px) {
+    bottom: 28%;
+    right: 24%;
   }
   @media (max-width: 767px) {
     bottom: 31%;
+  }
+  @media (max-width: 420px) {
+    right: 15%;
+  }
+  @media (max-width: 375px) {
+    bottom: 25%;
+  }
+  @media (max-width: 320px) {
+    bottom: 18%;
+    right: 5%;
   }
 
   &:hover {

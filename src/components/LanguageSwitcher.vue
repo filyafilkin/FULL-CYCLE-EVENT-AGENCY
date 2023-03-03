@@ -59,6 +59,7 @@ export default {
     text-align: center;
     color: #373737;
     opacity: 0;
+    cursor: pointer;
     @media (max-width: 1024px) {
       font-size: 14px;
     }

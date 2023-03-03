@@ -40,18 +40,14 @@ export default {
   top: 51%;
   left: 50%;
   z-index: -2;
-  transform: translate(-50%, -50%) rotate(-26deg);
+  transform: translate(-50%, -50%) rotate(-32deg);
   @media (max-width: 1024px) {
     width: 200%;
-    transform: translate(-50%, -50%) rotate(-40deg);
+    transform: translate(-50%, -50%) rotate(-55deg);
   }
-  @media (max-width: 991px) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-  }
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     width: 300%;
-    transform: translate(-50%, -50%) rotate(-51deg);
+    transform: translate(-50%, -50%) rotate(-54deg);
   }
   @media (max-width: 600px) {
     width: 300%;
@@ -59,18 +55,11 @@ export default {
   }
   @media (max-width: 414px) {
     width: 300%;
-    transform: translate(-50%, -50%) rotate(-64deg);
-  }
-  @media (max-width: 414px) {
-    width: 300%;
     transform: translate(-50%, -50%) rotate(-66deg);
   }
   @media (max-width: 375px) {
     width: 300%;
-    transform: translate(-50%, -50%) rotate(-62deg);
-  }
-  @media (max-width: 375px) {
-    transform: translate(-50%, -50%) rotate(-71deg);
+    transform: translate(-50%, -50%) rotate(-60deg);
   }
 
 
@@ -91,7 +80,7 @@ export default {
     line-height: 110%;
     text-align: center;
     text-transform: uppercase;
-    opacity: 0.1;
+    opacity: 0.2;
     color: transparent;
     @media (max-width: 1024px) {
       font-size: 42px;

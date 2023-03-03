@@ -30,86 +30,35 @@ export default {
 @font-face {
   font-family: "Grtsk Giga";
   src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Regular.woff) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Regular.woff2) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
+  url(./font/GrtskGiga/GrtskGiga-Regular.woff) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Regular.ttf) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Regular.woff2) format("truetype"),
   url(./font/GrtskGiga/GrtskGiga-Regular.eot) format("truetype");
 }
 @font-face {
   font-family: "Grtsk Giga";
   src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Semibold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Semibold.woff) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
+  url(./font/GrtskGiga/GrtskGiga-Semibold.eot) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Semibold.ttf) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Semibold.woff) format("truetype"),
   url(./font/GrtskGiga/GrtskGiga-Semibold.woff2) format("truetype");
 }
 @font-face {
   font-family: "Grtsk Giga";
   src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Semibold.eot) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
+  url(./font/GrtskGiga/GrtskGiga-Bold.eot) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Bold.ttf) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-Bold.woff) format("truetype"),
   url(./font/GrtskGiga/GrtskGiga-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Bold.woff) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Bold.woff2) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-Bold.eot) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
   font-style: italic;
   src: local("Grtsk Giga"),
+  url(./font/GrtskGiga/GrtskGiga-BoldItalic.ttf) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-BoldItalic.woff2) format("truetype"),
+  url(./font/GrtskGiga/GrtskGiga-BoldItalic.woff) format("truetype"),
   url(./font/GrtskGiga/GrtskGiga-BoldItalic.eot) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  font-style: italic;
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-BoldItalic.woff) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  font-style: italic;
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-BoldItalic.woff2) format("truetype");
-}
-@font-face {
-  font-family: "Grtsk Giga";
-  font-style: italic;
-  src: local("Grtsk Giga"),
-  url(./font/GrtskGiga/GrtskGiga-BoldItalic.ttf) format("truetype");
 }
 
 $bg: #BEBEBE;
@@ -202,6 +151,9 @@ body {
 
 .nav {
   @media (max-width: 767px) {
+    visibility: hidden;
+  }
+  @media (max-height: 480px) {
     visibility: hidden;
   }
 

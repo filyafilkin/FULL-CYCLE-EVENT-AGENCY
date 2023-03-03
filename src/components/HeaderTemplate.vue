@@ -26,10 +26,15 @@ export default {
 
 <style lang="scss">
 .header {
+  position: relative;
+
   &__inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
   }
 }
 </style>
