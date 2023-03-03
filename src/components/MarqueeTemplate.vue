@@ -40,7 +40,11 @@ export default {
   top: 51%;
   left: 50%;
   z-index: -2;
-  transform: translate(-50%, -50%) rotate(-32deg);
+  transform: translate(-50%, -50%) rotate(-26deg);
+  @media (max-width: 1024px) {
+    width: 200%;
+    transform: translate(-50%, -50%) rotate(-33deg);
+  }
   @media (max-width: 1024px) {
     width: 200%;
     transform: translate(-50%, -50%) rotate(-55deg);
