@@ -55,7 +55,14 @@ export default {
     transform: translate(-50%, -50%) rotate(-32deg);
   }
   @media (max-width: 1024px) {
+    transform: translate(-50%, -50%) rotate(-42deg);
+  }
+  @media (min-height: 1366px) {
     transform: translate(-50%, -50%) rotate(-54deg);
+  }
+  @media (min-height: 1920px) {
+    width: 350%;
+    transform: translate(-50%, -50%) rotate(-63deg);
   }
   @media (max-width: 768px) {
     width: 300%;

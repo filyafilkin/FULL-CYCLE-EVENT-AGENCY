@@ -40,19 +40,23 @@ export default {
     bottom: 16%;
   }
   @media (max-width: 1024px) {
-    bottom: 33%;
-    right: 27%;
+    bottom: 23%;
+    right: 30%;
+  }
+  @media (min-height: 1920px) {
+    bottom: 37%;
+    right: 31%;
+  }
+  @media (min-height: 1366px) {
+    bottom: 32%;
   }
   @media (max-width: 991px) {
     bottom: 24%;
     right: 26%;
   }
   @media (max-width: 820px) {
-    bottom: 28%;
+    bottom: 27%;
     right: 24%;
-  }
-  @media (max-width: 767px) {
-    bottom: 31%;
   }
   @media (max-width: 420px) {
     right: 15%;
